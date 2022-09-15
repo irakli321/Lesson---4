@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 a{
 	text-decoration: none;
 }
@@ -6,7 +11,22 @@ ul{
 }
 header{
 	background-color: blue;
+	height: 300px;
+	margin: 30px;
 }
 nav a{
 	color: white;
+}
+.about{
+	/*height: 300px;*/
+	/*width: 400px;*/
+	width: 1100px;
+	margin: 0 auto; /*centristvis*/
+	background-color: lightgreen;
+	border: 5px dotted red;
+	padding-top: 50px;
+	padding: 30px 20px; /*pirveli top da botom meore left da rait*/
+}
+.about img{
+	width: 100%;
 }
